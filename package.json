@@ -1,6 +1,6 @@
 {
   "name": "validate-github-signature",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validate the integrity of incoming GitHub webhooks.",
   "main": "index.js",
   "scripts": {

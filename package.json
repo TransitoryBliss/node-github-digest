@@ -1,5 +1,5 @@
 {
-  "name": "validate-github-signature",
+  "name": "github-digest",
   "version": "1.0.1",
   "description": "Validate the integrity of incoming GitHub webhooks.",
   "main": "index.js",
@@ -7,12 +7,8 @@
     "test": "jest"
   },
   "jest": {
-    "moduleFileExtensions": [
-      "js"
-    ],
-    "testMatch": [
-      "<rootDir>/test/**/*.test.js"
-    ]
+    "moduleFileExtensions": ["js"],
+    "testMatch": ["<rootDir>/test/**/*.test.js"]
   },
   "keywords": [],
   "author": "",

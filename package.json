@@ -7,8 +7,12 @@
     "test": "jest"
   },
   "jest": {
-    "moduleFileExtensions": ["js"],
-    "testMatch": ["<rootDir>/test/**/*.test.js"]
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "testMatch": [
+      "<rootDir>/test/**/*.test.js"
+    ]
   },
   "keywords": [],
   "author": "",

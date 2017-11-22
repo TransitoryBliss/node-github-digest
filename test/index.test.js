@@ -19,8 +19,11 @@ const sign = (req, token) => {
   return req;
 };
 
-it('should return true when valid signature', () =>
+it('should return true when valid digest', () =>
   expect(validate(sign(payload, secret))).toBe(true));
 
-it('should return false when invalid signature', () =>
+it('should return false when invalid digest', () =>
   expect(validate(sign(payload, 'dvorak'))).toBe(false));
+
+it('should return false when header is missing', () =>
+  expect(validate(payload)).toBe(false));

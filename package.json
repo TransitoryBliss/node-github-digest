@@ -1,0 +1,19 @@
+{
+  "name": "validate-github-signature",
+  "version": "1.0.0",
+  "description": "Validate the integrity of incoming GitHub webhooks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "moduleFileExtensions": ["js"],
+    "testMatch": ["<rootDir>/test/**/*.test.js"]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
